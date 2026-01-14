@@ -1,0 +1,38 @@
+.inventory-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: #e5e7eb;
+  font-size: 13px;
+}
+
+.tab.active {
+  background: #1ec9ff;
+  color: white;
+}
+
+.inventory-card {
+  background: white;
+  padding: 14px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  display: flex;
+  justify-content: space-between;
+}
+.inventory-card {
+  align-items: center;
+}
+
+.status {
+  margin-top: 4px;
+}
+
+.return-btn {
+  height: 36px;
+  font-size: 12px;
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f6f9fc;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app, .app-shell {
+  width: 100%;
+  max-width: 430px; /* Samsung S24 safe width */
+  min-height: 100vh;
+  background: #f6f9fc;
+  position: relative;
+}
+
+/* PAGE */
+.page {
+  padding: 16px;
+  padding-bottom: 96px;
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+/* TEXT */
+p {
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* INPUTS */
+input, select {
+  width: 100%;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 12px;
+  font-size: 14px;
+  background: white;
+}
+
+/* BUTTONS */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* PRIMARY BUTTON */
+.primary-btn {
+  width: 100%;
+  height: 50px;
+  background: #1ec9ff;
+  color: white;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}

@@ -1,0 +1,29 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 430px; /* Samsung S24 width */
+  height: 64px;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+/* NAV ITEM */
+.nav-item {
+  text-decoration: none;
+  font-size: 13px;
+  color: #94a3b8;
+  font-weight: 500;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+/* ACTIVE TAB */
+.nav-item.active {
+  color: #22c1f1;
+  font-weight: 600;
+}

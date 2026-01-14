@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cylinderflow</string>
+    <string name="title_activity_main">cylinderflow</string>
+    <string name="package_name">com.darshan.cylinderflow</string>
+    <string name="custom_url_scheme">com.darshan.cylinderflow</string>
+</resources>

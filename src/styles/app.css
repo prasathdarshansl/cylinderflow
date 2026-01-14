@@ -1,0 +1,52 @@
+:root {
+  --primary: #1ec9ff;
+  --bg: #f6f9fc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --danger: #ef4444;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Titles */
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Inputs */
+input {
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.primary-btn,
+.complete-btn {
+  background: var(--primary);
+  color: white;
+  height: 50px;
+  font-size: 16px;
+}

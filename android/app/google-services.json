@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142318394418",
+    "project_id": "cylinderflow-9c199",
+    "storage_bucket": "cylinderflow-9c199.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142318394418:android:422ce42a4aee432cdbb02b",
+        "android_client_info": {
+          "package_name": "com.darshan.cylinderflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbyEvtUIkBMIF1fqOE34g5Uqa-p9rEDCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
